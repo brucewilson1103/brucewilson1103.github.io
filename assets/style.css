@@ -1,0 +1,84 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  margin:0;
+  color: #777777;
+  background-image: url("topography.png");
+}
+
+.botbo{
+  border-bottom: 3px solid lightgray;
+}
+
+h1{
+  color: #4aaaa5;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+#name{
+  width:100%;
+}
+
+#logo{
+  background-color: #4aaaa5;
+  color:white;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top:10px;
+}
+
+.spacer1{
+  padding: 10px;
+}
+/* If I remove this width =100% from my .imagefamily class the image takes up the whole screen not just 100% of the div. If I put a percentage in here it stays in its div. I am unsure why it does that. */
+.imagefamily{
+  width: 100%;
+}
+
+.footcopy{
+ background-color: #777777;
+ text-align: center;
+ color: white;
+ padding-bottom: 0;
+ padding-top: 20px;
+ font-size: 10px;
+ 
+
+}
+.borderfootertop{
+  background-color: #4aaaa5;
+  height: 5px;
+
+}
+#main-container{
+  background-color: white;
+}
+
+.positionrel{
+  position: relative;
+}
+
+.positionport{
+  position: absolute;
+  background-color: #4aaaa5;
+  z-index: 100;
+  color: white;
+  text-align: center;
+  height: 15%;
+  width: 90%;
+  bottom: 0;
+  margin: 0 auto;
+  left: 5%;
+}
