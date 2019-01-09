@@ -15,6 +15,9 @@ body {
 .botbo{
   border-bottom: 3px solid lightgray;
 }
+.nav-link{
+  color:teal
+}
 a {
   color:white;
 }
